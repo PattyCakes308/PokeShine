@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Elements where we will display the Pokemon data and image
     const pokemonDataElement = document.getElementById("pokemon-data");
-    //const pokemonImageElement = document.getElementById("pokemon-image");
+    const pokemonImageElement = document.getElementById("pokemon-image"); // Uncomment this line
 
     // URL for the PokeAPI to retrieve data for a specific Pokémon (e.g., Pikachu)
     const pokemonName = "pikachu";
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             pokemonDataElement.innerHTML = pokemonInfo;
 
             // Set the src attribute of the image element to the Pokémon's image URL
-            //pokemonImageElement.src = imageUrl;
+            pokemonImageElement.src = imageUrl; // Uncomment this line
         })
         .catch((error) => {
             console.error("Error fetching data:", error);
