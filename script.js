@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h2>${name}</h2>
                 <p>Height: ${height} decimetres</p>
                 <p>Weight: ${weight} hectograms</p>
-                <img id="pokemon-image" src="${imageUrl}" alt="Pokemon Image">
+                <img id="pokemon-image" src="" alt="Pokemon Image">
             `;
 
             // Update the content of the div with the Pokemon data
